@@ -11,7 +11,7 @@ app.get('/api/products', (req, res) => {
   const { page } = req.query
 
   const data = []
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 200; i++) {
     data.push(productsData[i])
   }
 
